@@ -3,7 +3,7 @@ kind: Workload
 metadata:
   labels:
     app.kubernetes.io/part-of: tap-go
-    app.tanzu.vmware.com/workload-type: simple
+    app.tanzu.vmware.com/workload-type: web
   name: tap-go
 spec:
   resources: {}
