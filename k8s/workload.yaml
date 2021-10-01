@@ -2,7 +2,7 @@ apiVersion: kontinue.io/v1alpha1
 kind: Workload
 metadata:
   labels:
-    app.tanzu.vmware.com/workload-type: web
+    apps.tanzu.vmware.com/workload-type: web
   name: tap-go
 spec:
   resources: {}
